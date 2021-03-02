@@ -1,34 +1,29 @@
-
-
 body {
-    
     background: url(/bg-pattern-top.svg) -300px -600px no-repeat, url(./bg-pattern-bottom.svg) 900px 300px no-repeat;
     background-color: #127481;
     display: flex;
     align-items: center;
     justify-content: center;
-   
-
 }
 
 .profile-card {
     width: 400px;
-    
-   background-color: whitesmoke;
+
+    background-color: whitesmoke;
     text-align: center;
     border: 8px;
     margin-top: 150px;
     overflow: hidden;
     border-radius: 25px;
-    font-family:  'Kumbh Sans', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
 }
+
 .top-pic {
     width: 100%;
-
 }
 
 .pic {
-    margin-top: -60px;
+    margin-top: -80px;
     background-color: white;
     border-radius: 50px;
     padding: 5px;
@@ -37,68 +32,41 @@ body {
 p {
     font-weight: 700;
     font-size: 18px;
-
 }
+
 .location {
     font-weight: 400;
     font-size: 18px;
-    
 }
+
 span {
     font-weight: 400;
     font-size: 11px;
     font-size-adjust: 0.58;
-    
 }
 
-.card-header{
-
-    padding: 30px ;
+.card-header {
+    padding: 30px;
     border-top-right-radius: 7%;
     border-top-left-radius: 7%;
 }
- 
-    
- }
-
-/*.pic{
-    display: inline-block;
-    padding: 5px;
-    background: white;
-    border-radius: 50%;
-    background-size: 200%  200%;
-}
-
-
-.pic img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-} 
-*/
-
-
 
 .card-footer {
     background: whitesmoke;
     padding: 30px;
     border-bottom-left-radius: 7%;
     border-bottom-right-radius: 7%;
-    
-
 }
 
- 
-.line {
-    border-bottom: 2px solid black;
-    
+ hr {
+     width: 100%;
+     border-top: 3px solid #bbb;
+ }
 
-}
 .numbers {
     display: flex;
-    align-items: center ;
-    padding: 50px ;
+    align-items: center;
+    padding: 50px;
     margin-top: -50px;
 
 }
@@ -106,12 +74,8 @@ span {
 .item {
     flex: 2;
     font-size: 18px;
-    
-
 }
- 
+
 .item span {
     display: block;
-      
 }
-
